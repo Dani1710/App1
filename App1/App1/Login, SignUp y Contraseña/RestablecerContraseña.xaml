@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.RecuperarContraseña">
+    <ContentPage.Content>
+        <ScrollView HeightRequest="2000">
+            <Frame BackgroundColor="Black">
+                <StackLayout>
+                    <Image Source="RestablecerContraseña.png" WidthRequest="700" HeightRequest="350"></Image>
+
+                    <Label Text="Nueva Contraseña" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry MaxLength="10" IsPassword="True" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="**********" PlaceholderColor="Gray"></Entry>
+
+                    <Label Text="Confirmar Contraseña" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry MaxLength="10" IsPassword="True" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="**********" PlaceholderColor="Gray"></Entry>
+
+                    <Button Text="Restablecer" FontSize="Large" WidthRequest="100" HeightRequest="50" TextColor="White" BackgroundColor="Blue" Clicked="Restablecer"></Button>
+
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

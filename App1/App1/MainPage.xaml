@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <ContentPage.Content>
+        <ScrollView HeightRequest="2000">
+            <StackLayout>
+                <Image Source="Proyect.png" WidthRequest="800" HeightRequest="400"></Image>
+
+                <Button Text="LOGIN" FontSize="Large" WidthRequest="100" HeightRequest="50" TextColor="White" BackgroundColor="Blue" Clicked="LogIn"></Button>
+
+                <Button Text="SIGN UP" FontSize="Large" BorderWidth="0" TextColor="White" BackgroundColor="Blue" Clicked="SignUp"></Button>
+
+                <Label Text="¿Deseas acceder a un parquímetro en este momento?" FontSize="Large" TextColor="White" BackgroundColor="Black"></Label>
+                <Button Text="Inicio Rápido" FontSize="Large" BorderWidth="0" TextColor="White" BackgroundColor="Blue" Clicked="IRapido"></Button>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

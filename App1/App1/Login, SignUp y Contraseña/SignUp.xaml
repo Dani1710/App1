@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.SignUp">
+    <ContentPage.Content>
+        <ScrollView HeightRequest="2000">
+            <Frame BackgroundColor="Black">
+                <StackLayout>
+                    <Image Source="Registroicono.png" WidthRequest="800" HeightRequest="400"></Image>
+
+                    <!-- Datos Personales-->
+                    <Label Text="DATOS PERSONALES" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Label Text="Nombre Completo" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry IsSpellCheckEnabled="True" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="Nombre Completo" PlaceholderColor="Gray"></Entry>
+
+                    <Label Text="Edad" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry IsSpellCheckEnabled="True" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="Edad" PlaceholderColor="Gray"></Entry>
+
+                    <Label Text="Email" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry IsSpellCheckEnabled="True" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="Email" PlaceholderColor="Gray"></Entry>
+
+                    <Label Text="Teléfono" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" HorizontalOptions="Center" TextColor="Black" WidthRequest="350" Placeholder="Numero de telefono" PlaceholderColor="Gray"></Entry>
+
+
+                    <!-- Datos Vehiculares-->
+                    <Label Text="DATOS VEHÍCULARES" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Label Text="Matrícula" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry IsSpellCheckEnabled="True" MaxLength="10" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="Matricula" PlaceholderColor="Gray"></Entry>
+
+                    <Label Text="Número de serie" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry IsSpellCheckEnabled="True" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="Numero de serie" PlaceholderColor="Gray"></Entry>
+
+                    <Label Text="Color" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry IsSpellCheckEnabled="True" MaxLength="10" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="Color" PlaceholderColor="Gray"></Entry>
+
+                    <Label Text="Modelo" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry IsSpellCheckEnabled="True" MaxLength="10" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="Modelo" PlaceholderColor="Gray"></Entry>
+
+                    <!-- Contraseña-->
+                    <Label Text="CREAR CONTRASEÑA" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry MaxLength="10" IsPassword="True" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="Contraseña" PlaceholderColor="Gray"></Entry>
+
+
+                    <Label Text="¡Recuerde que para iniciar sesión tendrá que usar su matrícula, además de su contraseña!" HorizontalTextAlignment="Center" FontSize="Medium" TextColor="White"></Label>
+
+
+                    <Button Text="Registrar" FontSize="Large" WidthRequest="100" HeightRequest="50" TextColor="White" BackgroundColor="Blue"></Button>
+
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

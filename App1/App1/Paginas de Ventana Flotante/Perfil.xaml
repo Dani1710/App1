@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Paginas_de_Ventana_Flotante.Perfil">
+    <ContentPage.Content>
+        <ScrollView HeightRequest="2000">
+            <Frame BackgroundColor="Black">
+                <StackLayout>
+                    <Image Source="IconoPerfil.jpg" WidthRequest="800" HeightRequest="400"></Image>
+
+                    <Label Text="Nombre Completo" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry IsSpellCheckEnabled="True" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="Nombre Completo" PlaceholderColor="Gray"></Entry>
+
+                    <Label Text="Matricula Vehicular" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry MaxLength="10" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" HorizontalOptions="Center" TextColor="Black" WidthRequest="350" Placeholder="Matricula" PlaceholderColor="Gray"></Entry>
+
+                    <Label Text="Número de Parquímetro" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry MaxLength="20" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" HorizontalOptions="Center" TextColor="Black" WidthRequest="350" Placeholder="Numero de parquimetro" PlaceholderColor="Gray"></Entry>
+
+                    <Label Text="Tiempo del servicio" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" HorizontalOptions="Center" TextColor="Black" WidthRequest="350" Placeholder="Tiempo del servicio" PlaceholderColor="Gray"></Entry>
+
+                    <!-- Forma de pago-->
+                    <Label Text="Forma de pago" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" HorizontalOptions="Center" TextColor="Black" WidthRequest="350" Placeholder="Forma de pago" PlaceholderColor="Gray"></Entry>
+
+                    <Button Text="PAGAR" FontSize="Large" BorderWidth="0" TextColor="White" BackgroundColor="Blue"></Button>
+
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

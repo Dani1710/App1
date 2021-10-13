@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Login">
+
+    <ContentPage.Content>
+        <ScrollView HeightRequest="2000">
+            <Frame BackgroundColor="Black">
+                <StackLayout>
+                    <Image Source="Loginicono.png" WidthRequest="700" HeightRequest="350"></Image>
+
+                    <Label Text="Matricula Vehicular" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry MaxLength="10" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="Matricula" PlaceholderColor="Gray"></Entry>
+
+                    <Label Text="Contraseña" HorizontalTextAlignment="Center" FontSize="Large" TextColor="White"></Label>
+                    <Entry MaxLength="10" IsPassword="True" Keyboard="Default" HorizontalTextAlignment="Center" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="350" Placeholder="Contraseña" PlaceholderColor="Gray"></Entry>
+
+                    <Button Text="Ingresar" FontSize="Large" WidthRequest="100" HeightRequest="50" TextColor="White" BackgroundColor="Blue" Clicked="Ingresar"></Button>
+                    <Label Text="¿Olvidaste tu contraseña?" FontSize="Large" TextColor="White" BackgroundColor="Black"></Label>
+                    <Button Text="Restablecer Contraseña" FontSize="Large" WidthRequest="100" HeightRequest="50" TextColor="White" BackgroundColor="Blue" Clicked="RestablecerContraseña"></Button>
+
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
